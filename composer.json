@@ -1,9 +1,12 @@
 {
-    "require": {
-        "monolog/monolog": "1.16"
-    },
-
-    "autoload": {
-        "psr-4": {"Src\\": "src/"}
-    }
+    "name": "nix/mvc",
+    "description": "its test package",
+    "authors": [
+        {
+            "name": "iirioterii",
+            "email": "yuriyreva@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }

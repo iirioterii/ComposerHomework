@@ -8,5 +8,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "monolog/monolog": "1.16"
+    }
 }

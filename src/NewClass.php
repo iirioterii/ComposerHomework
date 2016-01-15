@@ -5,9 +5,9 @@ namespace Src;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-class newClass
+class NewClass
 {
-    public function Test ()
+    public function test ()
     {
         $log = new Logger('name');
         $log->pushHandler(new StreamHandler('app.log', Logger::WARNING));
